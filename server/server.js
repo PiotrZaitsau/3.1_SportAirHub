@@ -20,6 +20,8 @@ const analyticsRoutes = require('./routes/analytics');
 const mediaRoutes = require('./routes/media');
 const promoRoutes = require('./routes/promocodes');
 const adminRoutes = require('./routes/admin');
+const equipmentRoutes = require('./routes/equipment');
+const pricingRoutes = require('./routes/pricing');
 
 // Import middleware
 const authMiddleware = require('./middleware/auth');
@@ -107,6 +109,8 @@ app.use('/api/analytics', authMiddleware, analyticsRoutes);
 app.use('/api/media', authMiddleware, mediaRoutes);
 app.use('/api/promocodes', authMiddleware, promoRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/equipment', authMiddleware, equipmentRoutes);
+app.use('/api/pricing', pricingRoutes);
 
 // Serve static files from React build
 if (process.env.NODE_ENV === 'production') {

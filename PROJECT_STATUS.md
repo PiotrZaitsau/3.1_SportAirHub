@@ -40,6 +40,8 @@
 - [x] **IoT Integration** - MQTT для климат-контроля и доступа
 - [x] **Admin Dashboard** - Полная административная панель
 - [x] **Analytics** - Real-time аналитика и отчеты
+- [x] **Equipment Management** - Полная система управления оборудованием
+- [x] **Dynamic Pricing** - Интеллектуальное ценообразование с учетом факторов
 
 ### Technical Implementation
 - [x] **Database Design** - Оптимизированные MongoDB схемы

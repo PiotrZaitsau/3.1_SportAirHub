@@ -81,13 +81,26 @@ const bookingSchema = new mongoose.Schema({
     },
     dynamicPrice: { type: Number },
     additionalPlayerFee: { type: Number, default: 0 },
+    appliedRules: [{
+      ruleId: { type: mongoose.Schema.Types.ObjectId, ref: 'PricingRule' },
+      name: String,
+      description: String,
+      adjustment: Number,
+      _id: false
+    }],
+    weatherConditions: {
+      temperature: Number,
+      humidity: Number,
+      condition: String
+    },
+    occupancyRate: Number,
     discount: {
       amount: { type: Number, default: 0 },
       percentage: { type: Number, default: 0 },
       reason: String
     },
     totalAmount: { type: Number, required: true },
-    currency: { type: String, default: 'EUR' }
+    currency: { type: String, default: 'TRY' }
   },
   
   // Платежная информация
