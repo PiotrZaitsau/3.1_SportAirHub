@@ -9,7 +9,7 @@ class DynamicPricingService {
     this.occupancyCache = new Map();
     this.cacheTimeout = 5 * 60 * 1000; // 5 минут
     
-    // Базовые цены по типам кортов (₺/час)
+    // Базовые цены по типам кортов (zł/час)
     this.basePrices = {
       indoor: {
         peak: 100,      // Пиковые часы

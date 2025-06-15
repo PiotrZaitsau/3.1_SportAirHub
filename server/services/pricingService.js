@@ -250,7 +250,7 @@ class PricingService {
       // Добавляем дополнительные сборы за игроков (если больше 2)
       let additionalPlayerFee = 0;
       if (playerCount > 2) {
-        additionalPlayerFee = (playerCount - 2) * 10; // 10₺ за каждого дополнительного игрока
+        additionalPlayerFee = (playerCount - 2) * 10; // 10zł за каждого дополнительного игрока
       }
 
       return {

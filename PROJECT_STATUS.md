@@ -33,8 +33,8 @@
 - [x] **Court Management** - Управление кортами и расписанием
 - [x] **Booking System** - Система бронирования с временными слотами
 - [x] **Payment Integration** - Stripe для всех типов платежей
-- [x] **Subscription System** - Годовые абонементы (300₺/год)
-- [x] **Pass Cards** - Карты посещений (500₺/10 посещений)
+- [x] **Subscription System** - Годовые абонементы (300zł/год)
+- [x] **Pass Cards** - Карты посещений (500zł/10 посещений)
 - [x] **Loyalty Program** - Bronze/Silver/Gold уровни
 - [x] **Real-time Features** - Socket.io для уведомлений
 - [x] **IoT Integration** - MQTT для климат-контроля и доступа

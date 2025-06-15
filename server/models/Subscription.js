@@ -50,7 +50,7 @@ const subscriptionSchema = new mongoose.Schema({
     },
     currency: {
       type: String,
-      default: 'EUR'
+      default: 'PLN'
     },
     stripeSubscriptionId: String,
     stripeCustomerId: String,
@@ -500,7 +500,7 @@ subscriptionSchema.statics.createAnnualMembership = async function(userData, pay
     endDate,
     payment: {
       amount: paymentData.amount,
-      currency: paymentData.currency || 'EUR',
+      currency: paymentData.currency || 'PLN',
       stripeSubscriptionId: paymentData.stripeSubscriptionId,
       stripeCustomerId: paymentData.stripeCustomerId,
       paymentMethod: paymentData.method || 'stripe',

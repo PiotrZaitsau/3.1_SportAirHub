@@ -100,7 +100,7 @@ const bookingSchema = new mongoose.Schema({
       reason: String
     },
     totalAmount: { type: Number, required: true },
-    currency: { type: String, default: 'TRY' }
+    currency: { type: String, default: 'PLN' }
   },
   
   // Платежная информация

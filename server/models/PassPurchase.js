@@ -52,7 +52,7 @@ const passPurchaseSchema = new mongoose.Schema({
     },
     currency: {
       type: String,
-      default: 'EUR'
+      default: 'PLN'
     },
     stripePaymentIntentId: String,
     transactionId: String,
@@ -555,7 +555,7 @@ passPurchaseSchema.statics.create10HourPass = async function(userData, paymentDa
     expirationDate,
     payment: {
       amount: paymentData.amount,
-      currency: paymentData.currency || 'EUR',
+      currency: paymentData.currency || 'PLN',
       stripePaymentIntentId: paymentData.stripePaymentIntentId,
       transactionId: paymentData.transactionId,
       paymentMethod: paymentData.method || 'stripe',

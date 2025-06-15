@@ -191,7 +191,7 @@ const Home: React.FC = () => {
             </Box>
             <Box sx={{ textAlign: 'center' }}>
               <Typography variant="h4" sx={{ fontWeight: 700, color: '#e6a881' }}>
-                300₺
+                300zł
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 Годовой абонемент
@@ -292,7 +292,7 @@ const Home: React.FC = () => {
                     Гостевое посещение
                   </Typography>
                   <Typography variant="h3" sx={{ color: '#e6a881', fontWeight: 700, mb: 1 }}>
-                    80₺
+                    80zł
                   </Typography>
                   <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
                     за час
@@ -349,10 +349,10 @@ const Home: React.FC = () => {
                     Абонемент
                   </Typography>
                   <Typography variant="h3" sx={{ color: '#e6a881', fontWeight: 700, mb: 1 }}>
-                    300₺
+                    300zł
                   </Typography>
                   <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
-                    в год + 60₺/час
+                    в год + 60zł/час
                   </Typography>
                   <Box sx={{ mb: 3 }}>
                     <Typography variant="body2" sx={{ mb: 1 }}>✓ Скидка на бронирование</Typography>
@@ -393,7 +393,7 @@ const Home: React.FC = () => {
                     Карта посещений
                   </Typography>
                   <Typography variant="h3" sx={{ color: '#e6a881', fontWeight: 700, mb: 1 }}>
-                    500₺
+                    500zł
                   </Typography>
                   <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
                     10 посещений

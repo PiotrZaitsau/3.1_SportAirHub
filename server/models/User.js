@@ -216,7 +216,7 @@ const userSchema = new mongoose.Schema({
     currency: {
       type: String,
       enum: ['EUR', 'PLN', 'USD', 'SEK'],
-      default: 'EUR'
+      default: 'PLN'
     },
     timezone: {
       type: String,
